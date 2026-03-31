@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - -DSTM32F446xx
+    - -Iinclude
+  Remove:
+    - -mcpu=*
+    - -mthumb
+    - -mfpu=*
+    - -mfloat-abi=*
+    - -nostdlib
+    - --specs=*
